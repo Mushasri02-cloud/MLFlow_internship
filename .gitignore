@@ -1,0 +1,4 @@
+__pycache__/
+mlartifacts/
+mlflow.db
+.ipynb_checkpoints/

@@ -1,0 +1,16 @@
+mlflow_config:
+  experiment_name: "Diabetes_Prediction_System"
+  tracking_uri: "http://127.0.0.1:5000"
+
+data:
+  path: "dataset/diabetes.csv"
+  target: "Outcome"
+
+model_params:
+  logistic_regression:
+    max_iter: 1000
+    C: 1.0
+  random_forest:
+    n_estimators: 100
+    max_depth: 5
+    random_state: 42
