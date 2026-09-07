@@ -72,7 +72,7 @@ if st.button("Run Assessment"):
         }
         
         # Hosted/Public or Local API URL
-        api_url = f"https://mlflow-internship.onrender.com"
+        api_url = f"https://mlflow-internship.onrender.com/predict"
         
         try:
             response = requests.post(api_url, json=payload)
